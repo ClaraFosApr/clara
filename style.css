@@ -1,0 +1,164 @@
+*{  
+    font-family:sans-serif ;
+    margin:0;
+    padding:0;
+}
+#navigation{
+    margin: 50px;
+    padding: 20px 50px;
+}
+nav{ 
+    display: flex;
+    font-style:italic; 
+    gap: 20px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:50px ;
+    border-radius: 20px;
+        background: linear-gradient(90deg, hsla(206, 91%, 66%, 1) 0%, hsla(190, 90%, 51%, 1) 100%);
+}
+nav div :hover{
+    color: white;
+    background-color: black;
+}
+#welcome{
+    text-align: center ;
+    height: 50vh;
+    background-color: red;
+    font-size: 40px;
+    background-size: cover;
+    background-image: url(pictures/pexels-luis-gomes-166706-546819.jpg);
+    color: hsla(190, 90%, 51%, 1);
+}
+#welcome h1{
+    text-align: left;
+    font-size: 40px;
+}
+#welcome p{
+    margin-left: 170px;
+}
+#we{
+padding-top: 250px;
+font-size: 20px;
+}
+#pic3{
+    margin-left: 30px;
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    background-image: url(pictures/download.jpg);
+    background-size: contain;
+}
+#program{
+    margin-left: 230px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: rgb(0, 229, 255);
+}
+#me h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-size: 55px;
+    border-color: white;
+    border-width: 10px;
+    letter-spacing: 10px;
+    color: rgb(0, 229, 255);
+}
+#welcome #pic3{
+   border-style: solid;
+   border-width: 10px;
+   border-color: rgb(0, 229, 255) rgb(0, 217, 255) rgb(0, 225, 255);
+}
+#me p{
+   font-size: 25px;
+   margin: 10px;
+   text-align: center;
+}
+
+#years{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+    background-color: rgb(0, 217, 255);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+table{
+border: solid rgb(0, 217, 255);
+border-width: 2px;
+border-collapse: collapse;
+margin: auto;
+text-transform: uppercase;
+padding: 10px;
+width: 60%;
+height: 50%;
+border-radius: 10%;
+}
+
+tr td{
+    padding: 5px;  
+
+}
+td{
+    border-color: #f5f5f5c9;
+    word-spacing: 10px;
+}
+
+ul{
+    list-style-type: disc;
+}
+.skills{
+    display: flex;
+    justify-content: space-between 5;
+    padding: 20px;
+}
+
+.soft-skills{
+    width: 50%;
+}
+.soft-skills ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.hskill{
+    width: 50%;
+    text-align: right;
+}
+
+.hskill ul{
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left:0;
+    margin: 0;
+}
+.skills h1{
+    color: rgb(0, 229, 255);
+}
+
+.hskill h1{
+    color: rgb(0, 217, 255);
+}
+
+.details{
+ text-align: center;
+ text-transform: uppercase;
+ margin: 30px;
+ letter-spacing: 10px;
+ color: rgb(0, 225, 255);
+ font-size: 40px;
+}
+
+#footer{
+    height: 10vh;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
